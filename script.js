@@ -9,7 +9,7 @@ function showAlert(message,className){
     div.appendChild(document.createTextNode(message));
     const container = document.querySelector(".container");
     const main = document.querySelector(".main");
-    container.insertBefore(div,main);-
+    container.insertBefore(div,main);
 
     setTimeout(()=> document.querySelector(".alert").remove(),3000);
 }
